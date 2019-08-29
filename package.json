@@ -1,15 +1,19 @@
 {
   "name": "webpack-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "A webpack playground",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["webpack", "react"],
+  "author": "Wesley Max(Wesley-Max)",
+  "license": "MIT",
+  "repository": {
+ 	"type" : "git",
+  	"url" : "https://github.com/Wesley-Max/webpack-demo.git"
+  }, 
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
