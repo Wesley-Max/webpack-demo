@@ -1,11 +1,6 @@
-import {join} from 'ramda'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-function component(){
-	const element = document.createElement('div')
+import App from './App';
 
-	element.innerHTML = join(" ", ['Hello', 'Webpack'])
-
-	return element
-}
-
-document.body.appendChild(component());
+ReactDOM.render(<App />, document.getElementById('root'));
